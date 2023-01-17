@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3dbc3;
+}
+body #mainContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #9e6730;
+  width: 550px;
+  height: 550px;
+  padding: 10px;
+  transform: translate(0, 25%);
+  border-radius: 25px;
+  box-shadow: 6px 8px 5px #5a5851;
+}
+body #mainContent #title {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 35pt;
+  color: #f3dbc3;
+}
+body #mainContent #add {
+  position: relative;
+  background-color: #f3dbc3;
+  font-family: "Caveat", cursive;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 18pt;
+  border-radius: 25px;
+  color: #fffffa;
+}
+body #mainContent #add:hover {
+  background-color: #fffffa;
+  color: #9e6730;
+}
+body #mainContent #contentLista {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fffffa;
+  border-radius: 25px;
+  border-color: #f3dbc3;
+  border-style: dashed;
+  border-width: 3px;
+}
+body #janela {
+  background-color: #fffffa;
+  width: 500px;
+  z-index: 1;
+  padding: 5px;
+  transform: translate(0, -100%);
+  border-radius: 25px;
+  display: none;
+}
+body #janela #fechar {
+  position: relative;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+  padding: 3px;
+  color: #9e6730;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+body #janela #fechar:hover {
+  background-color: #f3dbc3;
+  color: #fffffa;
+}
+body #janela fieldset {
+  border: 2.5px dashed #9e6730;
+  border-radius: 25px;
+  padding: 5px;
+  width: 485px;
+}
+body #janela fieldset legend {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 25pt;
+  padding-left: 5px;
+}
+body #janela fieldset input, body #janela fieldset select, body #janela fieldset label {
+  font-family: "Baloo 2", cursive;
+  font-size: 14pt;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  outline: none;
+}
+body #janela fieldset #submit {
+  position: relative;
+  background-color: #f3dbc3;
+  font-family: "Caveat", cursive;
+  padding: 4px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  font-size: 20pt;
+  border-radius: 20px;
+  color: #9e6730;
+}
+body #janela fieldset #submit:hover {
+  background-color: #fffffa;
+  box-shadow: 1px 1px 5px #9e6730;
+}/*# sourceMappingURL=estiloLista.css.map */
