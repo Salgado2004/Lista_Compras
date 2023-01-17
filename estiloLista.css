@@ -66,6 +66,12 @@ body #mainContent #contentLista #lista {
   list-style: none;
   font-family: "Baloo 2", cursive;
 }
+body #mainContent #contentLista #lista .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
 body #janela {
   background-color: #fffffa;
   width: 500px;

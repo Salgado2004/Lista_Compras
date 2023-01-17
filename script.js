@@ -33,7 +33,16 @@ adicionar.onclick = function(e){
     qtd = document.querySelector("#qtd").value;
     medida = document.querySelector("#medida").value;
 
-    lista.innerHTML = lista.innerHTML + `<ul>${nome}   ${qtd} ${medida}</ul>`;
+    lista.innerHTML = lista.innerHTML + `
+    <li>
+        <div class="item">
+            <p><input type="checkbox" id="comprado"> ${nome} ${qtd} ${medida}</p>
+            <div>
+                <span class="material-symbols-outlined">delete</span>
+                <span class="material-symbols-outlined">edit</span>
+            </div>
+        </div>
+    </li>`;
 
     main.style.filter = "blur(0)";
     janela.style.display = "none";
