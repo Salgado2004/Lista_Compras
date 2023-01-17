@@ -49,6 +49,8 @@ body #mainContent #add:hover {
 }
 body #mainContent #contentLista {
   position: relative;
+  display: flex;
+  justify-content: center;
   width: 80%;
   height: 80%;
   padding: 5px;
@@ -58,6 +60,11 @@ body #mainContent #contentLista {
   border-color: #f3dbc3;
   border-style: dashed;
   border-width: 3px;
+}
+body #mainContent #contentLista ul {
+  width: 95%;
+  list-style: none;
+  font-family: "Baloo 2", cursive;
 }
 body #janela {
   background-color: #fffffa;

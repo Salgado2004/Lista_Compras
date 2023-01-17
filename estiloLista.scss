@@ -56,6 +56,8 @@ body{
 
         #contentLista{
             position: relative;
+            display: flex;
+            justify-content: center;
             width: 80%;
             height: 80%;
             padding: 5px;
@@ -67,6 +69,12 @@ body{
                 style: dashed;
                 width: 3px;
             };
+
+            ul{
+                width: 95%;
+                list-style: none;
+                font-family: $font2;
+            }
         }
     }
 
