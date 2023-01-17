@@ -71,6 +71,17 @@ body #mainContent #contentLista #lista .item {
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
+  padding: 3px;
+  border-radius: 5px;
+}
+body #mainContent #contentLista #lista .item div {
+  visibility: hidden;
+}
+body #mainContent #contentLista #lista .item:hover {
+  background-color: rgba(248, 227, 207, 0.4745098039);
+}
+body #mainContent #contentLista #lista .item:hover div {
+  visibility: visible;
 }
 body #janela {
   background-color: #fffffa;

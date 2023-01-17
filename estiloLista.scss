@@ -80,6 +80,19 @@ body{
                     flex-direction: row;
                     justify-content: space-between;
                     width: 80%;
+                    padding: 3px;
+                    border-radius: 5px;
+
+                    div {
+                        visibility: hidden;
+                    }
+
+                    &:hover{
+                        background-color: #f8e3cf79;
+                        div {
+                            visibility: visible;
+                        }
+                    }
                 }
             }
         }
