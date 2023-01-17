@@ -15,8 +15,7 @@
         <h1 id="title">Minha Lista de compras</h1>
         <button id="add">Adicionar</button>
         <div id="contentLista">
-            <ul>
-                <li>Feijão</li>
+            <ul id="lista">
             </ul>
         </div>
     </div>
@@ -26,10 +25,10 @@
             <fieldset>
                 <legend>Novo item</legend>
                 <label for="nome">Nome:</label>
-                    <input type="text" name="nome" placeholder="Nome">
+                    <input type="text" name="nome" placeholder="Nome" id="nome">
                 <div>
                     <label for="qtd">Quantidade:</label>
-                    <input type="number" name="qtd">
+                    <input type="number" name="qtd" id="qtd">
                     <select name="medida" id="medida">
                         <option value="Un">Un</option>
                         <option value="Kg">Kg</option>

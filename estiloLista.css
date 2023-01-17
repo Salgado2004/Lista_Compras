@@ -61,7 +61,7 @@ body #mainContent #contentLista {
   border-style: dashed;
   border-width: 3px;
 }
-body #mainContent #contentLista ul {
+body #mainContent #contentLista #lista {
   width: 95%;
   list-style: none;
   font-family: "Baloo 2", cursive;
